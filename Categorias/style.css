@@ -1,0 +1,94 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif; 
+    background-color: rgb(34, 34, 34);
+    font-family: poppinsregular;
+    margin: 0 auto;
+    padding: 15px;
+    
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#title{
+    flex-direction: column;
+    line-height: 35px;
+    text-decoration:none; 
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+}
+
+a{
+    text-decoration:none; 
+}
+
+    a:hover{
+        color: rgb(132, 14, 201);
+        transition: 0.3s all;
+    }
+
+    #inscreva-se-btn{
+        border: 2px solid rgb(132, 14, 201);
+        padding: 10px;
+        border-radius: 15px;
+    }
+
+#inscreva-se-btn:hover{
+    background-color: rgb(132, 14, 201);
+}
+.content {
+    padding: 100px 0;
+}
+
+.filter {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-bottom: 45px;
+    
+}
+
+.filter .item {
+    background-color: rgb(34, 34, 34);
+    padding: 15px 25px;
+    margin: 0 10px;
+    cursor: pointer;
+    border-radius: 100px;
+    border: 2px solid rgb(132, 14, 201);
+    
+}
+ 
+.itens{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+}
+.itens .item{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 4px;
+}
+
+.itens .item .item{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+

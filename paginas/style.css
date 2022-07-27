@@ -1,0 +1,142 @@
+*{
+margin:0;
+padding:0;
+}
+
+body{
+width: 100vw;
+height: 100vh;
+background: black;
+color: #fff;
+text-align: center;
+font-family: poppinsregular;
+}
+/* OPCOES */
+form [type="button"]{
+    width: 30%;
+    background-color:blueviolet;
+
+    color: white;
+    font-weight: bold;
+    margin: 30px;
+}
+form [type="button"]:hover{
+    cursor: pointer;
+}
+
+input{
+    padding: 25px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+}
+
+.box{
+    position:absolute;
+    padding-left: 50%;
+}
+
+.container{
+background: #dcdcdc;
+width: 100vw;
+height: 100vh;
+
+display: grid;
+grid-template-areas: "l r" "f f ";
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 4fr 1fr;
+
+}
+
+.nav-left{
+background: rgb(34, 34, 34);
+grid-area: l;
+justify-content: center;
+align-items: center;
+display: flex;
+
+}
+
+.nav-right{
+background: rgb(34, 34, 34);
+grid-area: r;
+}
+
+#box2{
+    margin-top: 30%;
+}
+
+.footer{
+background: rgb(34, 34, 34);
+grid-area: f;
+
+}
+
+
+img{
+    width: 80%;
+}
+h2{
+    line-height: 40px;
+    max-width: 500px;
+    text-align: center;
+    top: 35%;
+    left: 15%;
+    position: relative;
+
+
+}
+@media only screen and (max-width: 820px) {
+    .container{
+     grid-template-areas: "l" "r" "f";
+    grid-template-columns: 1fr;                         
+   }
+   h1{
+font-size: large;
+   }
+}
+
+.button {
+    border-top: 1px solid #96d1f8;
+    background: #5e218a;
+    background: -webkit-gradient(linear, left top, left bottom, from(#c91cc3), to(#5e218a));
+    background: -webkit-linear-gradient(top, #c91cc3, #5e218a);
+    background: -moz-linear-gradient(top, #c91cc3, #5e218a);
+    background: -ms-linear-gradient(top, #c91cc3, #5e218a);
+    background: -o-linear-gradient(top, #c91cc3, #5e218a);
+    padding: 15.5px 31px;
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    border-radius: 14px;
+    -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    box-shadow: rgba(0,0,0,1) 0 1px 0;
+    text-shadow: rgba(0,0,0,.4) 0 1px 0;
+    color: #ffffff;
+    font-size: 19px;
+    font-family: Helvetica, Arial, Sans-Serif;
+    text-decoration: none;
+    vertical-align: middle;
+    }
+ .button:hover {
+    border-top-color: #8f49c9;
+    background: #8f49c9;
+    color: #ccc;
+    }
+ .button:active {
+    border-top-color: #1b435e;
+    background: #1b435e;
+    }
+ 
+/*
+@media only screen and (max-width: 480px) {
+    .nav-left{
+     display:none;
+   }
+    .container {
+     grid-template-areas:"r" "f";  >>>SUMIR HISTORIA<<<
+
+    }
+}
+Su
+*/

@@ -1,0 +1,38 @@
+body {
+  background-color: rgba(235, 205, 245, 0.945);
+}
+* {
+    color: black;
+    text-align: center; 
+    color: black;
+  }
+  .bc {
+      margin-left: 35px;
+      margin-right: 45px;
+  }
+ .btn {
+   color:  white;
+   background-color: rgb(132, 14, 201);  ;
+  
+}
+
+li {
+font-size: 30px;
+
+
+}
+ .btn:hover {
+ background-color: #4b0c78; 
+ user-select: none;
+     
+  }
+  .test {
+    color:  white;
+    background-color: rgb(132, 14, 201);
+    width: 85px;
+    height: 40px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 8px;
+   
+ }
